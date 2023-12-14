@@ -5,9 +5,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import joblib
 
-# Set the theme to 'dark'
-st.set_page_config(page_title="Heart Disease Predictor", layout="wide", theme="dark")
-
 # Load the dataset
 df = pd.read_csv('heart-disease.csv')
 
