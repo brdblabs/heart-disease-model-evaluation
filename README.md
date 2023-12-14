@@ -25,6 +25,7 @@ Common binary classification metrics such as accuracy, precision, recall, F1 sco
 The model can be used to assist healthcare professionals in diagnosing or assessing the risk of heart disease in individuals based on their health-related information.
 
 **Create the models and fit the data.**
+'''
 gs_cat_best
 dtc = DecisionTreeClassifier()
 lr = LogisticRegression(max_iter=10000)
@@ -51,4 +52,5 @@ for model in models:
     y_pred = model.predict(X_test)
     acc_model = round(accuracy_score(y_pred, y_test) * 100, 2)
     acc_scores.append(acc_model)
+'''
 
