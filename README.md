@@ -28,19 +28,33 @@ The model can be used to assist healthcare professionals in diagnosing or assess
 
 ``
 gs_cat_best
+
 dtc = DecisionTreeClassifier()
+
 lr = LogisticRegression(max_iter=10000)
+
 gnb = GaussianNB()
+
 lsvc = LinearSVC(max_iter=10000)
+
 svc = SVC(max_iter=10000)
+
 rfc = RandomForestClassifier()
+
 knn = KNeighborsClassifier()
+
 sgdc = SGDClassifier()
+
 gbc = GradientBoostingClassifier()
+
 xgb = XGBClassifier()
+
 xgb_best # best parameters from RandomizedSearchCV
+
 log_reg_best
+
 rs_rf_best
+
 log_reg_best_grid
 ``
 
