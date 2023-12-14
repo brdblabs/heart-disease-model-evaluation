@@ -24,37 +24,5 @@ Common binary classification metrics such as accuracy, precision, recall, F1 sco
 **Use Case:**
 The model can be used to assist healthcare professionals in diagnosing or assessing the risk of heart disease in individuals based on their health-related information.
 
-**Create the models and fit the data.**
-
-``
-gs_cat_best
-
-dtc = DecisionTreeClassifier()
-
-lr = LogisticRegression(max_iter=10000)
-
-gnb = GaussianNB()
-
-lsvc = LinearSVC(max_iter=10000)
-
-svc = SVC(max_iter=10000)
-
-rfc = RandomForestClassifier()
-
-knn = KNeighborsClassifier()
-
-sgdc = SGDClassifier()
-
-gbc = GradientBoostingClassifier()
-
-xgb = XGBClassifier()
-
-xgb_best # best parameters from RandomizedSearchCV
-
-log_reg_best
-
-rs_rf_best
-
-log_reg_best_grid
-``
+Check out: [BRDB Labs](https://brdb-labs.gitbook.io/ai/the-work-bench/heart-disease-model-evaluation) for more details.
 
