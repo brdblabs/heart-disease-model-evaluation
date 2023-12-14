@@ -1,10 +1,11 @@
-# heart-disease-model-evaluation
+# Heart disease model Evaluation
 
 ## Predicting heart disease by testing multiple machine learning models
 **Summary**
 The heart disease predictor app uses a binary classification machine learning model. Binary classification is a type of supervised learning where the goal is to categorize input data into one of two classes or categories. In this case, the model predicts whether a person has heart disease or not based on various input features.
 
 Here are the key components of the heart disease predictor app:
+
 **Task Type: Binary Classification**
 The machine learning model is trained to predict whether an individual has heart disease or not. The target variable has two classes: 1 for "Heart Disease" and 0 for "No Heart Disease."
 
